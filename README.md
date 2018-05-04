@@ -1,2 +1,2 @@
-# github-gantt
-A Gantt Chart for GitHub.
+# github-vis
+A Visualization for GitHub.
