@@ -1,0 +1,21 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<script>
+			let gitHubUrl = 'https://api.github.com';
+
+			fetch(gitHubUrl + '/users/fiddleplum').then(response => {
+				return response.json();
+			}).then(json => {
+				console.log(json);
+			});
+
+			fetch(gitHubUrl + '/repos/fiddleplum/notes/issues?state=all').then(response => {
+				return response.json();
+			}).then(json => {
+				console.log(json);
+			});
+		</script>
+	</body>
+</html>
