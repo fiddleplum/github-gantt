@@ -1,2 +1,2 @@
 # github-vis
-A Visualization for GitHub.
+A visualization tool for GitHub.
