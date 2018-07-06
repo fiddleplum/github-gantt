@@ -19,7 +19,9 @@
 		"url": "https://github.com/fiddleplum/github-vis/issues"
 	},
 	"homepage": "https://github.com/fiddleplum/github-vis",
-	"dependencies": {},
+	"dependencies": {
+		"vue": "latest"
+	},
 	"devDependencies": {
 		"eslint": "latest",
 		"eslint-config-standard": "latest",
